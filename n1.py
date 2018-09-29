@@ -18,6 +18,12 @@ while(True):
         print "El ganador es usted"
     elif cadena == 'tijera' and cadena2=='papel':
         print "El ganador es usted"
+    if cadena == 'piedra' and cadena2=='piedra':
+        print "Empate"
+    elif cadena == 'papel' and cadena2=='papel':
+        print "Empate"
+    elif cadena == 'tijera' and cadena2=='tijera':
+        print "Empate"
     else:
         print "La computadora gano"
     print ('********************************')
